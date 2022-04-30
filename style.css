@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine&family=Montserrat:wght@100&display=swap');
+
+body {
+  background-color: #6f23ff;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+
+  text-decoration: none;
+}
+
+/*    HEADER*******************  */
+
+#navbar {
+
+   
+   height: 100px;
+   background: red;
+   padding: 20px 20px;
+
+}
+
+nav ul li{
+
+  
+  float:right;
+  color: #fff;
+margin-left: 20px;
+  display: inline-block;
+}
+
+nav ul li a{
+  font-size: 40px;
+  color: #fff;
+  font-weight: 300;
+}
+
+nav ul li :hover{
+
+  background-color: blue;
+}
+
+
+
+/* SECTION WELCOME*/
+
+#welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+ color: #fff;
+ 
+  
+}
+
+#welcome-section h1{
+
+  margin-top: 20px;
+  margin-bottom: 2px;
+  font-family: 'Orelega One' ;
+  font-size: 50px;
+}
+
+#welcome-section p{
+
+  color: Red;
+  font-size: 25px;
+}
+
+
+
+/* PROJECTS SECTION*/
+
+
+#projects{
+
+  width: 100%;
+  height: 900px;
+  float: left;
+  background-color: #6f23ff;
+}
+.clear{
+
+  clear: both;
+}
+
+  #projects h1{
+
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+    
+    
+  }
+
+
+.smalldiv{
+
+  width: 400px;
+  height: 250px;
+  border: 1px solid #fff;
+  margin-left: 170px;
+  margin-top: 50px;
+  text-align: center;
+ 
+}
+
+.caption{
+  width: 400px;
+  height: 50px;
+   text-align:center;
+   
+}
+
+.container{
+  
+ 
+  display: inline-block;
+}
+
+.pp{
+  text-align: center;
+  color: #fff;
+  margin:  auto;
+  font-size: 30px;
+  margin-top: 50px;
+  font-weight: 400;
+}
+
+.pp1{
+  text-align: center;
+  color: #000;
+  margin:  auto;
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+
+
+/* CONTACT **************/
+
+
+#contact{
+
+  width: 100%;
+  height: 80vh;
+  
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+
+}
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 80vh;
+  padding: 0 2rem;
+  background: var(--main-gray);
+}
+
+.contact-section-header > h2 {
+  font-size: 100px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+
+.contact-section-header > p {
+  font-style: italic;
+  color: #fff;
+  font-size: 30px;
+  
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 980px;
+  margin-top: 4rem;
+  flex-wrap: wrap;
+  
+}
+
+.contact-details {
+  font-size: 2.4rem;
+  text-shadow: 2px 2px 1px #1f1f1f;
+  transition: transform 0.3s ease-out;
+}
+
+#contact a{
+  color: #fff;
+}
